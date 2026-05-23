@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ProjectSettings>
-  <Name value="Kadabra Percussion"/>
+  <Name value="Kadabra Electric Piano"/>
   <Version value="1.0.0"/>
   <Description value=""/>
-  <BundleIdentifier value="com.IMI.KadabraPercussion"/>
-  <PluginCode value="Kprc"/>
+  <BundleIdentifier value="com.IMI.KadabraElectricPiano"/>
+  <PluginCode value="Kdep"/>
   <EmbedAudioFiles value="Yes"/>
   <EmbedImageFiles value="Yes"/>
   <SupportFullDynamicsHLAC value="1"/>
@@ -20,7 +20,7 @@
   <AppGroupID value=""/>
   <RedirectSampleFolder value=""/>
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
-  <VST3Category value="Sampler"/>
+  <VST3Category value="Piano"/>
   <SupportMonoFX value="No"/>
   <EnableMidiInputFX value="No"/>
   <EnableMidiOut value="No"/>
