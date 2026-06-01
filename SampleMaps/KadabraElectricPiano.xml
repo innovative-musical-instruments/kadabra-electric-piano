@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="KadabraElectricPiano" RRGroupAmount="1.0" MicPositions=";"
+           CrossfadeGamma="1.0" SaveMode="2">
+  <sample Root="24" LoKey="0" HiKey="24" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="693796" MonolithOffset="0"
+          MonolithLength="696320" SampleRate="44100.0"/>
+  <sample Root="24" LoKey="0" HiKey="24" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="515283" MonolithOffset="696320"
+          MonolithLength="516096" SampleRate="44100.0"/>
+  <sample Root="24" LoKey="0" HiKey="24" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="751176" MonolithOffset="1212416"
+          MonolithLength="753664" SampleRate="44100.0"/>
+  <sample Root="24" LoKey="0" HiKey="24" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="925740" MonolithOffset="1966080"
+          MonolithLength="929792" SampleRate="44100.0"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C#0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="689723" MonolithOffset="2895872"
+          MonolithLength="692224" SampleRate="44100.0"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C#0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="524048" MonolithOffset="3588096"
+          MonolithLength="524288" SampleRate="44100.0"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C#0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="776928" MonolithOffset="4112384"
+          MonolithLength="778240" SampleRate="44100.0"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C#0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="790301" MonolithOffset="4890624"
+          MonolithLength="790528" SampleRate="44100.0"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="612859" MonolithOffset="5681152"
+          MonolithLength="614400" SampleRate="44100.0"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="489308" MonolithOffset="6295552"
+          MonolithLength="491520" SampleRate="44100.0"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="760275" MonolithOffset="6787072"
+          MonolithLength="761856" SampleRate="44100.0"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="736160" MonolithOffset="7548928"
+          MonolithLength="737280" SampleRate="44100.0"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D#0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="690246" MonolithOffset="8286208"
+          MonolithLength="692224" SampleRate="44100.0"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D#0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="479079" MonolithOffset="8978432"
+          MonolithLength="479232" SampleRate="44100.0"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D#0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="753875" MonolithOffset="9457664"
+          MonolithLength="757760" SampleRate="44100.0"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D#0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="766873" MonolithOffset="10215424"
+          MonolithLength="770048" SampleRate="44100.0"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/E0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="649162" MonolithOffset="10985472"
+          MonolithLength="651264" SampleRate="44100.0"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/E0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="516394" MonolithOffset="11636736"
+          MonolithLength="520192" SampleRate="44100.0"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/E0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="761730" MonolithOffset="12156928"
+          MonolithLength="761856" SampleRate="44100.0"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/E0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="810719" MonolithOffset="12918784"
+          MonolithLength="811008" SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="952846" MonolithOffset="13729792"
+          MonolithLength="954368" SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="484660" MonolithOffset="14684160"
+          MonolithLength="487424" SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="794191" MonolithOffset="15171584"
+          MonolithLength="794624" SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="744664" MonolithOffset="15966208"
+          MonolithLength="745472" SampleRate="44100.0"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F#0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="899013" MonolithOffset="16711680"
+          MonolithLength="901120" SampleRate="44100.0"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F#0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="457020" MonolithOffset="17612800"
+          MonolithLength="458752" SampleRate="44100.0"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F#0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="985552" MonolithOffset="18071552"
+          MonolithLength="987136" SampleRate="44100.0"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F#0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="957034" MonolithOffset="19058688"
+          MonolithLength="958464" SampleRate="44100.0"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="692423" MonolithOffset="20017152"
+          MonolithLength="696320" SampleRate="44100.0"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="493166" MonolithOffset="20713472"
+          MonolithLength="495616" SampleRate="44100.0"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="818851" MonolithOffset="21209088"
+          MonolithLength="819200" SampleRate="44100.0"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="863362" MonolithOffset="22028288"
+          MonolithLength="864256" SampleRate="44100.0"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G#0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="832001" MonolithOffset="22892544"
+          MonolithLength="835584" SampleRate="44100.0"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G#0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="438250" MonolithOffset="23728128"
+          MonolithLength="438272" SampleRate="44100.0"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G#0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="842353" MonolithOffset="24166400"
+          MonolithLength="843776" SampleRate="44100.0"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G#0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="831916" MonolithOffset="25010176"
+          MonolithLength="835584" SampleRate="44100.0"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="715425" MonolithOffset="25845760"
+          MonolithLength="716800" SampleRate="44100.0"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="460695" MonolithOffset="26562560"
+          MonolithLength="462848" SampleRate="44100.0"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="670790" MonolithOffset="27025408"
+          MonolithLength="671744" SampleRate="44100.0"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1010566" MonolithOffset="27697152"
+          MonolithLength="1011712" SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A#0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="878488" MonolithOffset="28708864"
+          MonolithLength="880640" SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A#0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="471916" MonolithOffset="29589504"
+          MonolithLength="475136" SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A#0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1038866" MonolithOffset="30064640"
+          MonolithLength="1040384" SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A#0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1132447" MonolithOffset="31105024"
+          MonolithLength="1134592" SampleRate="44100.0"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/B0_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="858535" MonolithOffset="32239616"
+          MonolithLength="860160" SampleRate="44100.0"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/B0_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="466683" MonolithOffset="33099776"
+          MonolithLength="466944" SampleRate="44100.0"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/B0_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1069992" MonolithOffset="33566720"
+          MonolithLength="1073152" SampleRate="44100.0"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/B0_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1072541" MonolithOffset="34639872"
+          MonolithLength="1073152" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="813002" MonolithOffset="35713024"
+          MonolithLength="815104" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="522295" MonolithOffset="36528128"
+          MonolithLength="524288" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="777383" MonolithOffset="37052416"
+          MonolithLength="778240" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1165074" MonolithOffset="37830656"
+          MonolithLength="1167360" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C#1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="646257" MonolithOffset="38998016"
+          MonolithLength="647168" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C#1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="476919" MonolithOffset="39645184"
+          MonolithLength="479232" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C#1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="818167" MonolithOffset="40124416"
+          MonolithLength="819200" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C#1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1073724" MonolithOffset="40943616"
+          MonolithLength="1077248" SampleRate="44100.0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="732855" MonolithOffset="42020864"
+          MonolithLength="733184" SampleRate="44100.0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="484416" MonolithOffset="42754048"
+          MonolithLength="487424" SampleRate="44100.0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="907956" MonolithOffset="43241472"
+          MonolithLength="909312" SampleRate="44100.0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="905214" MonolithOffset="44150784"
+          MonolithLength="905216" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D#1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="760196" MonolithOffset="45056000"
+          MonolithLength="761856" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D#1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="537222" MonolithOffset="45817856"
+          MonolithLength="540672" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D#1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="781564" MonolithOffset="46358528"
+          MonolithLength="782336" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D#1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1075635" MonolithOffset="47140864"
+          MonolithLength="1077248" SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/E1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="879948" MonolithOffset="48218112"
+          MonolithLength="880640" SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/E1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="517952" MonolithOffset="49098752"
+          MonolithLength="520192" SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/E1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1102855" MonolithOffset="49618944"
+          MonolithLength="1105920" SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/E1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="936577" MonolithOffset="50724864"
+          MonolithLength="937984" SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1005539" MonolithOffset="51662848"
+          MonolithLength="1007616" SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="438299" MonolithOffset="52670464"
+          MonolithLength="442368" SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="787609" MonolithOffset="53112832"
+          MonolithLength="790528" SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="799397" MonolithOffset="53903360"
+          MonolithLength="802816" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F#1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="721141" MonolithOffset="54706176"
+          MonolithLength="724992" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F#1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="498443" MonolithOffset="55431168"
+          MonolithLength="499712" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F#1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="766494" MonolithOffset="55930880"
+          MonolithLength="770048" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F#1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="663602" MonolithOffset="56700928"
+          MonolithLength="667648" SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="891686" MonolithOffset="57368576"
+          MonolithLength="892928" SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="588138" MonolithOffset="58261504"
+          MonolithLength="589824" SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1049762" MonolithOffset="58851328"
+          MonolithLength="1052672" SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="816387" MonolithOffset="59904000"
+          MonolithLength="819200" SampleRate="44100.0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G#1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="766366" MonolithOffset="60723200"
+          MonolithLength="770048" SampleRate="44100.0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G#1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="531511" MonolithOffset="61493248"
+          MonolithLength="532480" SampleRate="44100.0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G#1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="752472" MonolithOffset="62025728"
+          MonolithLength="753664" SampleRate="44100.0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G#1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="775940" MonolithOffset="62779392"
+          MonolithLength="778240" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="907838" MonolithOffset="63557632"
+          MonolithLength="909312" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="494524" MonolithOffset="64466944"
+          MonolithLength="495616" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="683733" MonolithOffset="64962560"
+          MonolithLength="684032" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="714383" MonolithOffset="65646592"
+          MonolithLength="716800" SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A#1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="690899" MonolithOffset="66363392"
+          MonolithLength="692224" SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A#1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="486351" MonolithOffset="67055616"
+          MonolithLength="487424" SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A#1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="829059" MonolithOffset="67543040"
+          MonolithLength="831488" SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A#1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="932777" MonolithOffset="68374528"
+          MonolithLength="933888" SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/B1_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="730814" MonolithOffset="69308416"
+          MonolithLength="733184" SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/B1_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="431317" MonolithOffset="70041600"
+          MonolithLength="434176" SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/B1_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="871849" MonolithOffset="70475776"
+          MonolithLength="872448" SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/B1_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="854358" MonolithOffset="71348224"
+          MonolithLength="856064" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="737496" MonolithOffset="72204288"
+          MonolithLength="741376" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="622320" MonolithOffset="72945664"
+          MonolithLength="622592" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="796115" MonolithOffset="73568256"
+          MonolithLength="798720" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="827110" MonolithOffset="74366976"
+          MonolithLength="827392" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C#2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="628592" MonolithOffset="75194368"
+          MonolithLength="630784" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C#2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="580360" MonolithOffset="75825152"
+          MonolithLength="581632" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C#2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="809300" MonolithOffset="76406784"
+          MonolithLength="811008" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C#2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="702795" MonolithOffset="77217792"
+          MonolithLength="704512" SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="794800" MonolithOffset="77922304"
+          MonolithLength="798720" SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="526014" MonolithOffset="78721024"
+          MonolithLength="528384" SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="728805" MonolithOffset="79249408"
+          MonolithLength="729088" SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="819603" MonolithOffset="79978496"
+          MonolithLength="823296" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D#2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="821728" MonolithOffset="80801792"
+          MonolithLength="823296" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D#2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="705206" MonolithOffset="81625088"
+          MonolithLength="708608" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D#2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1074557" MonolithOffset="82333696"
+          MonolithLength="1077248" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D#2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="872169" MonolithOffset="83410944"
+          MonolithLength="872448" SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/E2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="925476" MonolithOffset="84283392"
+          MonolithLength="925696" SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/E2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="670032" MonolithOffset="85209088"
+          MonolithLength="671744" SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/E2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="1045528" MonolithOffset="85880832"
+          MonolithLength="1048576" SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/E2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="854355" MonolithOffset="86929408"
+          MonolithLength="856064" SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="807487" MonolithOffset="87785472"
+          MonolithLength="811008" SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="549383" MonolithOffset="88596480"
+          MonolithLength="552960" SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="849157" MonolithOffset="89149440"
+          MonolithLength="851968" SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="730760" MonolithOffset="90001408"
+          MonolithLength="733184" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F#2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="925423" MonolithOffset="90734592"
+          MonolithLength="925696" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F#2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="630536" MonolithOffset="91660288"
+          MonolithLength="630784" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F#2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="927446" MonolithOffset="92291072"
+          MonolithLength="929792" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F#2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="818808" MonolithOffset="93220864"
+          MonolithLength="819200" SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="808764" MonolithOffset="94040064"
+          MonolithLength="811008" SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="750223" MonolithOffset="94851072"
+          MonolithLength="753664" SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="690618" MonolithOffset="95604736"
+          MonolithLength="692224" SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="720380" MonolithOffset="96296960"
+          MonolithLength="720896" SampleRate="44100.0"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G#2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="442298" MonolithOffset="97017856"
+          MonolithLength="442368" SampleRate="44100.0"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G#2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="407597" MonolithOffset="97460224"
+          MonolithLength="409600" SampleRate="44100.0"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G#2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="470789" MonolithOffset="97869824"
+          MonolithLength="471040" SampleRate="44100.0"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G#2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="462777" MonolithOffset="98340864"
+          MonolithLength="462848" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="716844" MonolithOffset="98803712"
+          MonolithLength="720896" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="617444" MonolithOffset="99524608"
+          MonolithLength="618496" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="646211" MonolithOffset="100143104"
+          MonolithLength="647168" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="753438" MonolithOffset="100790272"
+          MonolithLength="753664" SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A#2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="591232" MonolithOffset="101543936"
+          MonolithLength="593920" SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A#2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="730234" MonolithOffset="102137856"
+          MonolithLength="733184" SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A#2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="604995" MonolithOffset="102871040"
+          MonolithLength="606208" SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A#2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="581569" MonolithOffset="103477248"
+          MonolithLength="581632" SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/B2_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="621978" MonolithOffset="104058880"
+          MonolithLength="622592" SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/B2_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="560785" MonolithOffset="104681472"
+          MonolithLength="561152" SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/B2_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="693555" MonolithOffset="105242624"
+          MonolithLength="696320" SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/B2_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="673504" MonolithOffset="105938944"
+          MonolithLength="675840" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="678321" MonolithOffset="106614784"
+          MonolithLength="679936" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="603244" MonolithOffset="107294720"
+          MonolithLength="606208" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="578939" MonolithOffset="107900928"
+          MonolithLength="581632" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="505396" MonolithOffset="108482560"
+          MonolithLength="507904" SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C#3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="656640" MonolithOffset="108990464"
+          MonolithLength="659456" SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C#3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="556091" MonolithOffset="109649920"
+          MonolithLength="557056" SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C#3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="643397" MonolithOffset="110206976"
+          MonolithLength="647168" SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C#3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="618211" MonolithOffset="110854144"
+          MonolithLength="618496" SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="581310" MonolithOffset="111472640"
+          MonolithLength="581632" SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="549483" MonolithOffset="112054272"
+          MonolithLength="552960" SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="576008" MonolithOffset="112607232"
+          MonolithLength="577536" SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="607790" MonolithOffset="113184768"
+          MonolithLength="610304" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D#3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="340627" MonolithOffset="113795072"
+          MonolithLength="344064" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D#3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="333535" MonolithOffset="114139136"
+          MonolithLength="335872" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D#3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="290725" MonolithOffset="114475008"
+          MonolithLength="290816" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D#3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="293997" MonolithOffset="114765824"
+          MonolithLength="294912" SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/E3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="631697" MonolithOffset="115060736"
+          MonolithLength="634880" SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/E3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="573944" MonolithOffset="115695616"
+          MonolithLength="577536" SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/E3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="657584" MonolithOffset="116273152"
+          MonolithLength="659456" SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/E3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="587066" MonolithOffset="116932608"
+          MonolithLength="589824" SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="456499" MonolithOffset="117522432"
+          MonolithLength="458752" SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="551752" MonolithOffset="117981184"
+          MonolithLength="552960" SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="514859" MonolithOffset="118534144"
+          MonolithLength="516096" SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="451086" MonolithOffset="119050240"
+          MonolithLength="454656" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F#3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="457345" MonolithOffset="119504896"
+          MonolithLength="458752" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F#3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="508814" MonolithOffset="119963648"
+          MonolithLength="512000" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F#3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="471489" MonolithOffset="120475648"
+          MonolithLength="475136" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F#3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="405607" MonolithOffset="120950784"
+          MonolithLength="409600" SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="486289" MonolithOffset="121360384"
+          MonolithLength="487424" SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="522244" MonolithOffset="121847808"
+          MonolithLength="524288" SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="505588" MonolithOffset="122372096"
+          MonolithLength="507904" SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="491006" MonolithOffset="122880000"
+          MonolithLength="491520" SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/G#3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="436051" MonolithOffset="123371520"
+          MonolithLength="438272" SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/G#3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="455240" MonolithOffset="123809792"
+          MonolithLength="458752" SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/G#3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="491105" MonolithOffset="124268544"
+          MonolithLength="491520" SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/G#3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="464023" MonolithOffset="124760064"
+          MonolithLength="466944" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="548505" MonolithOffset="125227008"
+          MonolithLength="548864" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="532151" MonolithOffset="125775872"
+          MonolithLength="532480" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="575682" MonolithOffset="126308352"
+          MonolithLength="577536" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="619234" MonolithOffset="126885888"
+          MonolithLength="622592" SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/A#3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="265219" MonolithOffset="127508480"
+          MonolithLength="266240" SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/A#3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="290854" MonolithOffset="127774720"
+          MonolithLength="294912" SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/A#3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="260650" MonolithOffset="128069632"
+          MonolithLength="262144" SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/A#3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="247481" MonolithOffset="128331776"
+          MonolithLength="249856" SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/B3_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="495272" MonolithOffset="128581632"
+          MonolithLength="495616" SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/B3_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="327842" MonolithOffset="129077248"
+          MonolithLength="331776" SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/B3_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="260419" MonolithOffset="129409024"
+          MonolithLength="262144" SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/B3_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="322127" MonolithOffset="129671168"
+          MonolithLength="323584" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="478066" MonolithOffset="129994752"
+          MonolithLength="479232" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="444363" MonolithOffset="130473984"
+          MonolithLength="446464" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="458476" MonolithOffset="130920448"
+          MonolithLength="458752" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="359529" MonolithOffset="131379200"
+          MonolithLength="360448" SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C#4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="313786" MonolithOffset="131739648"
+          MonolithLength="315392" SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/C#4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="451461" MonolithOffset="132055040"
+          MonolithLength="454656" SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/C#4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="398385" MonolithOffset="132509696"
+          MonolithLength="401408" SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/C#4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="440955" MonolithOffset="132911104"
+          MonolithLength="442368" SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="469881" MonolithOffset="133353472"
+          MonolithLength="471040" SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="463956" MonolithOffset="133824512"
+          MonolithLength="466944" SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="445990" MonolithOffset="134291456"
+          MonolithLength="446464" SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="389049" MonolithOffset="134737920"
+          MonolithLength="389120" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/D#4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="400913" MonolithOffset="135127040"
+          MonolithLength="401408" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/D#4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="463389" MonolithOffset="135528448"
+          MonolithLength="466944" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/D#4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="392315" MonolithOffset="135995392"
+          MonolithLength="393216" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/D#4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="354400" MonolithOffset="136388608"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/E4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="439343" MonolithOffset="136744960"
+          MonolithLength="442368" SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/E4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="523361" MonolithOffset="137187328"
+          MonolithLength="524288" SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/E4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="464069" MonolithOffset="137711616"
+          MonolithLength="466944" SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/E4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="358134" MonolithOffset="138178560"
+          MonolithLength="360448" SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="127" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/F4_Vel2.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="590807" MonolithOffset="138539008"
+          MonolithLength="593920" SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="127" LoVel="33" HiVel="64" FileName="{PROJECT_FOLDER}KDEP Samples/F4_Vel1.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="580852" MonolithOffset="139132928"
+          MonolithLength="581632" SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="127" LoVel="65" HiVel="96" FileName="{PROJECT_FOLDER}KDEP Samples/F4_Vel3.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="644412" MonolithOffset="139714560"
+          MonolithLength="647168" SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="127" LoVel="97" HiVel="127" FileName="{PROJECT_FOLDER}KDEP Samples/F4_Vel4.wav"
+          RRGroup="1" Duplicate="0" SampleEnd="528170" MonolithOffset="140361728"
+          MonolithLength="528384" SampleRate="44100.0"/>
+</samplemap>
