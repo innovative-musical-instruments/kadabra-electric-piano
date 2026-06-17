@@ -40,9 +40,9 @@
                  max="18" macroControl="No MacroControl" middlePosition="9" parentComponent="pnlMain"
                  filmstripImage="{PROJECT_FOLDER}final-71.png" numStrips="128.0"
                  scaleFactor="0.2000000029802322" width="60" height="60" isPluginParameter="1"
-                 pluginParameterName="Delay Time"/>
+                 pluginParameterName="Delay Time" defaultValue="8.0"/>
       <Component type="ScriptLabel" id="delayTimeValue" x="180" y="282" parentComponent="pnlMain"
-                 width="40" height="18" text="1/1" textColour="4288387995" bgColour="4278190080"/>
+                 width="40" height="18" text="1/8" textColour="4288387995" bgColour="4278190080"/>
       <Component type="ScriptSlider" id="Delay Feedback" x="235" y="220" width="60"
                  height="60" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}final-71.png"
                  scaleFactor="0.2000000029802322" numStrips="128.0" isPluginParameter="1"
@@ -117,7 +117,7 @@
       <Component type="ScriptPanel" id="aboutPanel" x="72" y="50" text="" width="670"
                  height="290" parentComponent="pnlMain" bgColour="4278190080"
                  opaque="1" itemColour="4026531840" itemColour2="4029821490" borderRadius="8.0"
-                 borderSize="10.0" visible="0.0">
+                 borderSize="10.0" visible="0">
         <Component type="ScriptImage" id="aboutImage" x="0" y="0" width="670" height="290"
                    parentComponent="aboutPanel" fileName="{PROJECT_FOLDER}KSMP About Box1.0_Electriciano.png"/>
         <Component type="ScriptButton" id="linkKsamplers" x="10" y="178" width="400"
@@ -137,9 +137,9 @@
                    height="70" parentComponent="aboutPanel" isMomentary="1" enableMidiLearn="0"
                    bgColour="4294967295" mouseCursor="PointingHandCursor" filmstripImage="{PROJECT_FOLDER}LinkKGIT.png"/>
       </Component>
-      <Component type="ScriptButton" id="aboutButton" x="677" y="10" parentComponent="pnlMain"
+      <Component type="ScriptButton" id="aboutButton" x="653" y="10" parentComponent="pnlMain"
                  width="50" text="About" enableMidiLearn="0" filmstripImage="{PROJECT_FOLDER}aboutBtn2.png"/>
-      <Component type="ScriptButton" id="presetsButton" x="71" y="10" width="50"
+      <Component type="ScriptButton" id="presetsButton" x="94" y="10" width="50"
                  parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}presetsBtn2.png"/>
       <Component type="ScriptPanel" id="clipLedL" x="772" y="60" width="8" height="8"
                  parentComponent="pnlMain" allowCallbacks="Clicks Only" popupOnRightClick="0"
