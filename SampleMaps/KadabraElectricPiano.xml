@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="KadabraElectricPiano" RRGroupAmount="1.0" MicPositions=";"
-           CrossfadeGamma="1.0" SaveMode="2">
+           CrossfadeGamma="1.0" SaveMode="1">
   <sample Root="24" LoKey="0" HiKey="24" LoVel="0" HiVel="32" FileName="{PROJECT_FOLDER}KDEP Samples/C0_Vel2.wav"
           RRGroup="1" Duplicate="0" SampleEnd="693796" MonolithOffset="0"
           MonolithLength="696320" SampleRate="44100.0"/>

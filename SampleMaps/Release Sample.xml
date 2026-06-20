@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Release Sample" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0"
-           SaveMode="2">
+           SaveMode="1">
   <sample Root="48" LoKey="0" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}KDEP Samples/Sustain Off.wav" Duplicate="1"
           Volume="3" SampleEnd="15824" MonolithOffset="0" MonolithLength="16384"

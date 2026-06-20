@@ -108,7 +108,7 @@ phaserDepthBroadcaster.addComponentPropertyListener(["phaserDepthValue"], ["text
 const var PhaserRateKnob = Content.getComponent("Phaser Rate");
 const var Phaser1LFO = Synth.getModulator("LFO Modulator1");
 
-// Apply tempo-table offset so knob index 0 = "4/1", index 21 = "1/64T"
+// Apply tempo-table offset so knob index 0 = "8/1", index 20 = "1/64T"
 inline function onPhaserRateControl(component, value)
 {
     Phaser1LFO.setAttribute(Phaser1LFO.getAttributeIndex("Frequency"), value);
@@ -177,26 +177,40 @@ presetsButton.setControlCallback(onPresetsButtonControl);
 aboutButton.setControlCallback(onAboutButtonControl);
 
 // --- Delay section ---
-const var DelayTimeKnob = Content.getComponent("Delay Time");
+const var DelayTimeKnob   = Content.getComponent("Delay Time");
 const var DelayFeedbackKnob = Content.getComponent("Delay Feedback");
-const var DelaySyncMode = Content.getComponent("delaySyncMode");
-const var Delay1 = Synth.getEffect("Delay1");
+const var DelaySyncMode   = Content.getComponent("delaySyncMode");
+const var Delay1          = Synth.getEffect("Delay1");
 
-// Per-mode memory — defaults apply on first load; DAW recall overwrites via callbacks
-reg lastFreeValue = 400;
-reg lastSyncValue = 8;
+// Hidden knobs that persist per-mode delay values across DAW sessions and preset recall.
+// These must exist in the HISE UI editor as hidden sliders:
+//   delayFreeMemory  — min:1,    max:2500, default:400
+//   delaySyncMemory  — min:0,    max:18,   default:8
+const var delayFreeMemory = Content.getComponent("delayFreeMemory");
+const var delaySyncMemory = Content.getComponent("delaySyncMemory");
+
+// SYNC_OFFSET compensates for HISE_USE_EXTENDED_TEMPO_VALUES=1 prepending 5 slow
+// tempo divisions before "1/1" in the internal table. The knob index is 0-based
+// over tempoNames[] ("1/1"…"1/64T"), so index + 5 maps to the correct internal slot.
+// The display label reads the raw knob index into tempoNames[] — no offset needed there.
+const var SYNC_OFFSET = 5;
 
 // L/R mirror: Delay Time
 inline function onDelayTimeControl(component, value)
 {
-    // Track the value per-mode so mode toggles can restore it later
-    if (DelaySyncMode.getValue() == 1)
-        lastSyncValue = value;
-    else
-        lastFreeValue = value;
-
-    Delay1.setAttribute(0, value); // DelayTimeLeft
-    Delay1.setAttribute(1, value); // DelayTimeRight
+    if (DelaySyncMode.getValue() == 1) // Sync mode
+    {
+        delaySyncMemory.setValue(value);        // persist to hidden knob
+        var audioValue = value + SYNC_OFFSET;   // compensate for extended tempo table
+        Delay1.setAttribute(0, audioValue);     // DelayTimeLeft
+        Delay1.setAttribute(1, audioValue);     // DelayTimeRight
+    }
+    else // Free mode
+    {
+        delayFreeMemory.setValue(value);        // persist to hidden knob
+        Delay1.setAttribute(0, value);          // DelayTimeLeft
+        Delay1.setAttribute(1, value);          // DelayTimeRight
+    }
 }
 DelayTimeKnob.setControlCallback(onDelayTimeControl);
 
@@ -211,59 +225,66 @@ DelayFeedbackKnob.setControlCallback(onDelayFeedbackControl);
 // Sync/Free mode toggle
 inline function onDelaySyncModeControl(component, value)
 {
-    // value: 0 = Free (LED off), 1 = Sync (LED on) — matches HISE TempoSync polarity
+    // value: 0 = Free (LED off), 1 = Sync (LED on)
     Delay1.setAttribute(7, value);
-    
+
     if (value == 1) // Sync mode
     {
         DelayTimeKnob.set("min", 0);
         DelayTimeKnob.set("max", 18);
-        DelayTimeKnob.set("middlePosition", 9);   // linear across divisions
+        DelayTimeKnob.set("middlePosition", 9);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.set("defaultValue", 8);     // double-click reset target
-        DelayTimeKnob.setValue(lastSyncValue);    // restore last sync value
+        DelayTimeKnob.set("defaultValue", 8);
+        DelayTimeKnob.setValue(delaySyncMemory.getValue()); // restore from hidden knob
+
+        var audioValue = delaySyncMemory.getValue() + SYNC_OFFSET;
+        Delay1.setAttribute(0, audioValue);
+        Delay1.setAttribute(1, audioValue);
     }
     else // Free mode
     {
         DelayTimeKnob.set("min", 1);
         DelayTimeKnob.set("max", 2500);
-        DelayTimeKnob.set("middlePosition", 500); // 50% → 500 ms
+        DelayTimeKnob.set("middlePosition", 500);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.set("defaultValue", 400);   // double-click reset target
-        DelayTimeKnob.setValue(lastFreeValue);    // restore last free value
+        DelayTimeKnob.set("defaultValue", 400);
+        DelayTimeKnob.setValue(delayFreeMemory.getValue()); // restore from hidden knob
+
+        var freeVal = delayFreeMemory.getValue();
+        Delay1.setAttribute(0, freeVal);
+        Delay1.setAttribute(1, freeVal);
     }
-    
-    // push the new value through so audio updates immediately
-    local pushValue = DelayTimeKnob.getValue();
-    Delay1.setAttribute(0, pushValue);
-    Delay1.setAttribute(1, pushValue);
 }
 DelaySyncMode.setControlCallback(onDelaySyncModeControl);
 
-// Initialize knob range based on current sync state (handles plugin load / preset recall)
-if (DelaySyncMode.getValue() == 1)
+// Initialize knob range and audio state on load / preset recall.
+// DAW recall populates the hidden knobs via their own callbacks before this runs.
+if (DelaySyncMode.getValue() == 1) // Sync mode
 {
     DelayTimeKnob.set("min", 0);
     DelayTimeKnob.set("max", 18);
     DelayTimeKnob.set("middlePosition", 9);
     DelayTimeKnob.set("stepSize", 1);
     DelayTimeKnob.set("defaultValue", 8);
-    DelayTimeKnob.setValue(lastSyncValue);
+    DelayTimeKnob.setValue(delaySyncMemory.getValue());
+
+    var initAudio = delaySyncMemory.getValue() + SYNC_OFFSET;
+    Delay1.setAttribute(0, initAudio);
+    Delay1.setAttribute(1, initAudio);
 }
-else
+else // Free mode
 {
     DelayTimeKnob.set("min", 1);
     DelayTimeKnob.set("max", 2500);
     DelayTimeKnob.set("middlePosition", 500);
     DelayTimeKnob.set("stepSize", 1);
     DelayTimeKnob.set("defaultValue", 400);
-    DelayTimeKnob.setValue(lastFreeValue);
-}
+    DelayTimeKnob.setValue(delayFreeMemory.getValue());
 
-// push the initial value through so audio matches the UI on load
-local initValue = DelayTimeKnob.getValue();
-Delay1.setAttribute(0, initValue);
-Delay1.setAttribute(1, initValue);
+    var initFree = delayFreeMemory.getValue();
+    Delay1.setAttribute(0, initFree);
+    Delay1.setAttribute(1, initFree);
+}
 
 // Delay Feedback label broadcaster
 const var delayFeedbackBroadcaster = Engine.createBroadcaster({
@@ -282,7 +303,7 @@ delayFeedbackBroadcaster.addComponentPropertyListener(
     }
 );
 
-// Delay Time label broadcaster (mode-aware)
+// Delay Time label broadcaster (mode-aware, display uses raw knob index — no SYNC_OFFSET)
 const var delayTimeBroadcaster = Engine.createBroadcaster({
     "id": "delayTimeBroadcaster",
     "args": ["component", "value"],
@@ -300,7 +321,7 @@ delayTimeBroadcaster.addComponentPropertyListener(
             var idx = Math.round(value);
             if (idx < 0) idx = 0;
             if (idx > 18) idx = 18;
-            return tempoNames[idx];
+            return tempoNames[idx]; // raw index, no offset — display is correct as-is
         }
         else // Free mode
         {
@@ -351,7 +372,7 @@ const var CLIP_ON_COLOUR  = 0xFFFF2222; // hot red, clipped
 const var CLIP_HIGHLIGHT  = 0x99FFAAAA; // glassy strip when on
 
 const var CLIP_THRESHOLD  = 0.989;      // ~ -0.1 dBFS
-const var CLIP_HOLD_MS    = 5000;       // auto-release after 1.5s
+const var CLIP_HOLD_MS    = 5000;       // auto-release after 5s
 const var CLICK_GUARD_MS  = 250;        // re-latch suppression after click
 
 reg clipState    = [false, false];
